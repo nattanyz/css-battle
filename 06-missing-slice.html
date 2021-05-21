@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="quadrant top-left"></div>
+  <div class="quadrant top-right"></div>
+  <div class="quadrant bottom-left"></div>
+  <div class="quadrant bottom-right"></div>
+</div>
+<style>
+  body {
+    background: #E3516E;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .container {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+  }
+  .quadrant {
+    width: 100px;
+    height: 100px;
+    background: #dd6b4d;
+  }
+  .top-left {
+    border-radius: 100px 0 0 0;
+    background: #51B5A9;
+  }
+  .top-right {
+    border-radius: 0 100px 0 0;
+    background: #FADE8B;
+  }
+  .bottom-left {
+    border-radius: 0 0 0 100px;
+    background: #F7F3D7
+  }
+  .bottom-right {
+    border-radius: 0 0 100px 0;
+    background: transparent;
+  }
+</style>

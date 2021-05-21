@@ -1,0 +1,37 @@
+<!-- score: 600.67, 671 chars, 100% -->
+<div class="container">
+  <div class="semicircle"></div>
+  <div class="semicircle two"></div>
+</div>
+<div class="reflected container">
+  <div class="semicircle"></div>
+  <div class="semicircle two"></div>
+</div>
+<style>
+  body {
+    background: #191919;
+    margin: 0;
+  }
+  .semicircle {
+    width: 50px;
+    height: 100px;
+    border-radius: 0 100px 100px 0;
+    background: #4F77FF;
+  }
+  .two {
+    transform: rotateY(180deg) translateX(50px);
+  }
+  .container {
+    position: fixed;
+    left: 200px;
+    top: 50px;
+  }
+  .reflected > .semicircle {
+    background: #F9E492;
+  }
+  .reflected {
+    transform: rotate(90deg);
+    left: 175px;
+    top: 75px;
+  }
+</style>

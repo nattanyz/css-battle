@@ -1,0 +1,54 @@
+<div class="prongs">
+  <div class="prong"></div>
+  <div class="prong reversed"></div>
+  <div class="prong"></div>
+  <div class="prong reversed"></div>
+  <div class="prong"></div>
+  <div class="prong reversed"></div>
+  <div class="prong"></div>
+</div>
+<div class="rectangle"></div>
+<div class="semicircle"></div>
+<div class="base"></div>
+
+<style>
+  body {
+    background: #6592CF;
+    margin: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   	align-items: center;
+  }
+  .prongs {
+    display: flex;
+    margin: 0 0 -20px 0
+  }
+  .prong {
+    background: #060F55;
+    width: 20px;
+    height: 110px;
+    border-radius: 10px 10px 0 0;
+  }
+  .reversed {
+    background: #6592CF;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 300
+  }
+  .rectangle {
+    width: 140px;
+    height: 40px;
+    background: #060F55;
+  }
+  .semicircle {
+    background: #060F55;
+    width: 140px;
+    height: 70px;
+    border-radius: 0 0 70px 70px
+  }
+  .base {
+    background: #060F55;
+    width: 20px;
+    height: 100px;
+  }
+</style>

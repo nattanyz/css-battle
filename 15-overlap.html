@@ -1,0 +1,31 @@
+<div class="circle">
+  <div class="circle overlap"></div>
+</div>
+<div class="circle right"></div>
+<style>
+  body {
+    background: #09042A;
+    margin: 0;
+  }
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #7B3F61;
+    position: fixed;
+    top: 75px;
+    left: 75px;
+    overflow: hidden;
+  }
+  .right {
+    left: 175px;
+    background: #E78481;
+    z-index: -100;
+  }
+  .overlap {
+    position: relative;
+    background: #09042A;
+    left: 100px;
+    top: 0px
+  }
+</style>

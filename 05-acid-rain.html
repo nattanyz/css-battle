@@ -1,0 +1,34 @@
+<div class="teardrop"></div>
+<div class="teardrop green"></div>
+<div class="circle"></div>
+<style>
+  body {
+    background: #0B2429;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  div {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin: 0 -30px;
+  }
+  .teardrop {
+	top: 150px;
+    border-radius: 50% 0 50% 50%;
+    background: #F3AC3C;
+    z-index: 1;
+  }
+  .green {
+    top: 90px;
+    background: #998235;
+    z-index: 0;
+  }
+  .circle {
+    top: 30px;
+    border-radius: 50%;
+    background: #F3AC3C;
+    z-index: -1;
+  }
+</style>

@@ -1,0 +1,44 @@
+<!-- not 100% accurate - 99.9% lol -->
+<div class="circle"></div>
+<div class="cap"></div>
+<div class="cap"></div>
+<div class="mouth"></div>
+
+<style>
+  body {
+    background: #191919;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    position: fixed;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #E08027;
+    border: 30px solid #824B20;
+  }
+  .mouth {
+    width: 80px;
+    height: 80px;
+    border: 20px solid #FFF58F;
+    border-radius: 50%;
+    border-color: transparent transparent #FFF58F #FFF58F;
+    transform: rotate(-45deg)
+  }
+  .cap {
+    width: 20px;
+    height: 10px;
+    border-radius: 20px 20px 0 0;
+    background: #FFF58F;
+    left: 140px;
+  }
+  .cap:nth-child(2) {
+    left: 240px;
+  }
+</style>

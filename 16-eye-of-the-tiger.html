@@ -1,0 +1,55 @@
+<!-- not 100% accurate :( -->
+<div class="eye">
+  <div class="triangle olive"></div>
+  <div class="circle outer"></div>
+  <div class="triangle olive right"></div>
+</div>
+<div class="circle inner"></div>
+<div class="circle core"></div>
+<style>
+  body {
+    background: #0B2429;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .eye {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .outer {
+    width: 200px;
+    height: 200px;
+   	background: #998235;
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid #998235;
+    border-bottom: 100px solid transparent;
+    margin: 0 40
+  }
+  .right {
+    border-right: 0;
+    border-left: 100px solid #998235;
+  }
+  .inner {
+    width: 140px;
+    height: 140px;
+    background: #F3AC3C;
+    border: 20px solid #0B2429;
+  }
+  .core {
+    width: 50px;
+    height: 50px;
+    background: #0B2429;
+  }
+  .circle {
+    border-radius: 50%;
+    position: absolute;
+  }
+</style>

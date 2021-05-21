@@ -1,0 +1,36 @@
+<!-- not 100% accurate :( -->
+<div class="circle">
+  <div class="square"></div>
+  <div class="square"></div>
+</div>
+<style>
+  body {
+    background: #293462;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #FFF1C1;
+    position: absolute;
+    overflow: hidden;
+  }
+  .square {
+    background: #FE5F55;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    transform: rotate(45deg);
+  }
+  .square:nth-child(2) {
+    top: 150px;
+    left: -50px;
+  }
+</style>

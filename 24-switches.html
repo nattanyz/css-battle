@@ -1,0 +1,33 @@
+<!-- score: 601.56, 582 chars, 100% -->
+<div class="nub reflected"></div>
+<div class="nub"></div>
+<style>
+  body {
+    background: #62306D;
+  }
+  .nub {
+    width: 100px;
+    height: 100px;
+    background: #E38F66;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    left: 220px;
+    top: 150px;
+  }
+  .nub:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #AA445F;
+	border-radius: 50%;
+    background: #F7EC7D;
+    transform: translateY(-50px);
+  }
+  .reflected {
+    background: #AA445F;
+    left: 80px;
+    top: 50px;
+    transform: rotate(180deg);
+  }
+</style>

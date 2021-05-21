@@ -1,0 +1,57 @@
+<div class="column">
+  <div class="outer-circle"></div>
+  <div class="inner-circle"></div>
+</div>
+<div class="column-center">
+  <div class="outer-circle center"></div>
+  <div class="inner-circle center"></div>
+  <div class="rectangle"></div>
+</div>
+<div class="column">
+  <div class="outer-circle"></div>
+  <div class="inner-circle"></div>
+</div>
+
+<style>
+  body {
+    background: #62306D;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .column {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    display: flex;
+    flex-direction: column;
+  }
+  .column-center {
+    width: 100px;
+    height: 200px;
+    background: #F7EC7D;
+    display: flex;
+    flex-direction: column;
+  }
+  .outer-circle {
+    width: 100px;
+    height: 100px;
+    background: #AA445F;
+    border-radius: 50%;
+    margin: -50px 0;
+  }
+  .inner-circle {
+    width: 60px;
+    height: 60px;
+    background: #E38F66;
+    border-radius: 50%;
+    margin: -30px 20px;
+  }
+  .outer-circle.center {
+	background: #E38F66;
+  }
+  .inner-circle.center {
+	background: #AA445F;
+  }
+</style>
